@@ -1,0 +1,110 @@
+:root {
+    /* primary */
+    --sb: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    /* neutral */
+    --db1: hsl(217, 54%, 11%);
+    --db2: hsl(216, 50%, 16%);
+    --db3: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 90%;
+    background-color: var(--db1);
+}
+.card{
+    height: 540px;
+    width: 320px;
+    background-color: var(--db2);
+    border-radius: 25px;
+}
+.img{
+    width: 88%;
+    margin: 6%;
+}
+
+.h-1{
+    color: var(--White);
+    font-size: 18px;
+    margin: 0 6%;
+}
+.p-1{
+    color: var(--sb);
+    font-size: 16px;
+    margin: 11px 6%;
+    margin-bottom: 0px;
+}
+.coin{
+    display: inline-flex;
+    display: flex;
+    align-items: center;
+    margin: 0 6%;
+    width: 88%;
+    border-bottom: 1px solid var(--db3);
+}
+.coin img{
+    height: 20px;
+    margin-right: 6px;
+}
+.eth{
+    color: var(--cyan);
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.time img{
+    height: 18px;
+}
+
+.time h6{
+    color: var(--sb);
+}
+.profile{
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    height: 28px;
+    border: 1px solid var(--White);
+    border-radius: 50px;
+}
+.profile p{
+    margin-left: 10px;
+    color: var(--sb);
+    font-size: 16px;
+}
+
+.profile h4{
+    margin-left: 5px;
+    color: var(--White);
+    font-size: 16px;
+}
+
+

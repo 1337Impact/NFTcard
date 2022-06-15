@@ -107,4 +107,13 @@ main{
     font-size: 16px;
 }
 
+.profile h4:hover,
+.h-1:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card img:hover{
+    background: aqua;
+}
 
